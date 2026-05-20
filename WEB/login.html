@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+		<title>Intranet</title>
+		<meta charset="UTF-8">
+		<script src="https://kit.fontawesome.com/5e64ddfdb3.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover">
+		<link href="style/style.css" rel="stylesheet" type="text/css">
+		<meta name="description" content="login--">
+		<meta name="keywords" content="Login, Destruye MP3">
+		<meta name="author" content="ezv,karina">
+	
+		<!-- JavaScript -->
+		<!-- defer es para que cargue el script despues del DOM-->
+		<!-- Si no, no funciona.-->
+		<script src="script/script.js" defer></script>
+
+  </head>
+  
+  <!-- Body -->
+  <body>
+  
+	<!-- Encabezado de la página -->
+	<header>
+		<div class="contenedorHeader">
+			<div id="menuHeader">
+				<!-- Menu -->
+				<button id="buttonMenu">
+					<i class="fa-solid fa-bars"> </i>
+				</button>
+				
+			</div>
+			<div class="imagenLOGO">
+				<!-- imagenLOGO -->
+				<img src="img/destruye.png" alt="Logo Musicfy" id="logo" height="90%" width="20%">
+				<!-- Título 1 -->
+				<h1>Destruye MP3</h1>
+			</div>
+		</div>
+	</header>
+	
+	
+	<main>
+		<!-- Sección principal del documento -->
+		<section>
+			<div class="contenedor">
+				<div class="imagencont">
+					<img class="imagen" src="img/artistas.png">
+				
+				</div>
+				<div class="formularioLogin">
+					<!--Formulario de login-->
+					<form class="formularioLogin" method="POST" id="loginForm">
+						<h2>Bienvenido </h2>
+						<div class="input-contenedor">
+							<!--<label for="email">email</label>-->
+							<i class="fa-solid fa-envelope"></i>
+							<label for="email" class="form-label">Email</label>
+							<input id="email" type="email" name="email" required> 
+						</div>
+						<div class="input-contenedor">
+							<!--<label for="pass">password</label>-->
+							<i class="fa-solid fa-lock"></i>
+							<label for="pass" class="form-label">Contraseña</label>
+							<input id="pass" type="password" name="pass" required> 
+							
+						</div>
+						<div>
+							<button class="buttonLogin" type="submit">Log in</button>
+						</div>
+						
+						<div>
+							<button class="buttonLogin" type="button" onclick="window.location.href='Registro.html'">Registrarse </button>
+						</div>
+					</form>		
+				</div>
+			</div>
+			
+		</section>
+	</main>
+
+	<!-- Pie de página -->
+	<footer>
+	<!-- Creative Comons -->
+      <p class="licencia">&copy;
+        <span property="dct:title">2026</span>
+        <span property="cc:attributionName">Destruye MP3</span>
+        <a>Todos los derechos reservados </a>
+      </p>
+	</footer>
+  
+  </body>
+  
+</html>

@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DestructorMp3 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <idiomas>
+        <idioma id="ES">
+            <descripcion>Espanol</descripcion>
+        </idioma>
+        <idioma id="EN">
+            <descripcion>English</descripcion>
+        </idioma>
+        <idioma id="FR">
+            <descripcion>Francais</descripcion>
+        </idioma>
+        <idioma id="PT">
+            <descripcion>Portugues</descripcion>
+        </idioma>
+        <idioma id="IT">
+            <descripcion>Italiano</descripcion>
+        </idioma>
+    </idiomas>
+
+    <artistas>
+        <artista id="CA001" tipoArtista="Musico">
+            <nombreArtistico>Calle 13</nombreArtistico>
+            <genero>Rap Alternativo / Urbano</genero>
+            <imagen>calle-13-multiviral-2014/perfil.jpg</imagen>
+            <descripcion>Banda de rap fusión y música urbana alternativa de Puerto Rico, ganadora de múltiples premios Grammy.</descripcion>
+            <tipoMusico>solista</tipoMusico>
+        </artista>
+        <artista id="IZ001" tipoArtista="Musico">
+            <nombreArtistico>Izaro</nombreArtistico>
+            <genero>Pop Alternativo / Indie Folk</genero>
+            <imagen>izaro-limones-de-oro-2022/perfil.jpg</imagen>
+            <descripcion>Cantautora e intérprete vasca conocida por su sensibilidad artística, composiciones poéticas y mezclas de pop, folk y música acústica.</descripcion>
+            <tipoMusico>solista</tipoMusico>
+        </artista>
+        <artista id="MA001" tipoArtista="Musico">
+            <nombreArtistico>Mägo de Oz</nombreArtistico>
+            <genero>Folk Metal / Heavy Metal</genero>
+            <imagen>mago-de-oz-folktergeist-2002/perfil.jpg</imagen>
+            <descripcion>Reconocida banda española de folk metal formada en 1988, famosa por su fusión de estilos pesados con música celta.</descripcion>
+            <tipoMusico>grupo</tipoMusico>
+        </artista>
+        <artista id="MN001" tipoArtista="Musico">
+            <nombreArtistico>Maná</nombreArtistico>
+            <genero>Rock en Español / Pop Rock</genero>
+            <imagen>mana-arde-el-cielo-2008/perfil.jpg</imagen>
+            <descripcion>Icónica banda mexicana de rock en español formada en 1986, considerada una de las agrupaciones latinas más influyentes y exitosas de todos los tiempos.</descripcion>
+            <tipoMusico>grupo</tipoMusico>
+        </artista>
+        <artista id="RI001" tipoArtista="Musico">
+            <nombreArtistico>Ricardo Arjona</nombreArtistico>
+            <genero>Pop Latino / Balada / Trova</genero>
+            <imagen>ricardo-arjona-solo-2004/perfil.jpg</imagen>
+            <descripcion>Cantautor guatemalteco célebre en toda Hispanoamérica por su particular estilo lírico, que fusiona baladas poéticas con temáticas sociales, románticas y cotidianas.</descripcion>
+            <tipoMusico>solista</tipoMusico>
+        </artista>
+        <artista id="RO001" tipoArtista="Musico">
+            <nombreArtistico>Rozalén</nombreArtistico>
+            <genero>Pop / Folk</genero>
+            <imagen>rozalen-cuando-el-rio-suena-2017/perfil.jpg</imagen>
+            <descripcion>Reconocida cantautora y activista española, célebre por su voz expresiva, sus composiciones cargadas de compromiso social y su propuesta inclusiva de lenguaje de signos en directo.</descripcion>
+            <tipoMusico>solista</tipoMusico>
+        </artista>
+    </artistas>
+
+    <biblioteca>
+        <albumes>
+            <album id="1" idMusico="CA001">
+                <titulo>MultiViral</titulo>
+                <anioPublicacion>2014</anioPublicacion>
+                <genero>Rap Fusión / Urbano</genero>
+                <descripAlbum>Quinto álbum de estudio de la banda, caracterizado por su fuerte crítica social, líricas filosóficas y colaboraciones internacionales de diversos ámbitos.</descripAlbum>
+                <imagenPortada>calle-13-multiviral-2014/cover.jpg</imagenPortada>
+                <canciones>
+                    <cancion id="1">
+                        <nombreAudio>Intro - El Viaje</nombreAudio>
+                        <duracion>120</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/01-calle-13-intro-el-viaje.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="2">
+                        <nombreAudio>La Vida (Respira el Momento)</nombreAudio>
+                        <duracion>329</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/02-calle-13-la-vida-respira-el-momento.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="3">
+                        <nombreAudio>Interludio - Un Buen Día para Morir</nombreAudio>
+                        <duracion>40</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/03-calle-13-interludio-un-buen-dia-para-morir.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="4">
+                        <nombreAudio>El Aguante</nombreAudio>
+                        <duracion>288</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/04-calle-13-el-aguante.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="5">
+                        <nombreAudio>Ojos Color Sol</nombreAudio>
+                        <duracion>217</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/05-calle-13-ojos-color-sol.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="6">
+                        <nombreAudio>Multi_Viral</nombreAudio>
+                        <duracion>263</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/06-calle-13-multi-viral.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="7">
+                        <nombreAudio>Cuando los Pies Besan el Piso</nombreAudio>
+                        <duracion>234</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/07-calle-13-cuando-los-pies-besan-el-piso.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="8">
+                        <nombreAudio>Adentro</nombreAudio>
+                        <duracion>292</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/08-calle-13-adentro.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="9">
+                        <nombreAudio>Interludio - Stupid Is as Stupid Does</nombreAudio>
+                        <duracion>59</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/09-calle-13-interludio-stupid-is-as-stupid-does.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="10">
+                        <nombreAudio>Los Idiotas</nombreAudio>
+                        <duracion>270</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/10-calle-13-los-idiotas.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="11">
+                        <nombreAudio>Fuera de la Atmósfera del Cráneo</nombreAudio>
+                        <duracion>235</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/11-calle-13-fuera-de-la-atmosfera-del-craneo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="12">
+                        <nombreAudio>Perseguido</nombreAudio>
+                        <duracion>284</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/12-calle-13-perseguido.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="13">
+                        <nombreAudio>Gato Que Avanza, Perro Que Ladra</nombreAudio>
+                        <duracion>308</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/13-calle-13-gato-que-avanza-perro-que-ladra.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="14">
+                        <nombreAudio>Me Vieron Cruzar</nombreAudio>
+                        <duracion>234</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/14-calle-13-me-vieron-cruzar.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="15">
+                        <nombreAudio>Así de Grandes Son las Ideas</nombreAudio>
+                        <duracion>311</duracion>
+                        <archivoAudio>calle-13-multiviral-2014/15-calle-13-asi-de-grandes-son-las-ideas.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                </canciones>
+            </album>
+
+            <album id="2" idMusico="IZ001">
+                <titulo>Limones de Oro</titulo>
+                <anioPublicacion>2022</anioPublicacion>
+                <genero>Pop Alternativo / Folk</genero>
+                <descripAlbum>Un álbum recopilatorio especial lleno de colaboraciones en el que Izaro reversiona sus temas más emblemáticos junto a grandes artistas.</descripAlbum>
+                <imagenPortada>izaro-limones-de-oro-2022/cover.jpg</imagenPortada>
+                <canciones>
+                    <cancion id="16">
+                        <nombreAudio>Ventanas Cerradas</nombreAudio>
+                        <duracion>191</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/01-izaro-ventanas-cerradas.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="17">
+                        <nombreAudio>Delirios</nombreAudio>
+                        <duracion>269</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/02-izaro-delirios.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="18">
+                        <nombreAudio>Grace</nombreAudio>
+                        <duracion>237</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/03-izaro-grace.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="19">
+                        <nombreAudio>Argia</nombreAudio>
+                        <duracion>284</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/04-izaro-argia.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="20">
+                        <nombreAudio>La Felicidad</nombreAudio>
+                        <duracion>240</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/05-izaro-la-felicidad.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="21">
+                        <nombreAudio>Errefuxiatuena</nombreAudio>
+                        <duracion>241</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/06-izaro-errefuxiatuena.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="22">
+                        <nombreAudio>Paris</nombreAudio>
+                        <duracion>195</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/07-izaro-paris.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="23">
+                        <nombreAudio>Eider</nombreAudio>
+                        <duracion>273</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/08-izaro-eider.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="24">
+                        <nombreAudio>Invierno a la Vista</nombreAudio>
+                        <duracion>223</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/09-izaro-invierno-a-la-vista.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="25">
+                        <nombreAudio>Aquí</nombreAudio>
+                        <duracion>207</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/10-izaro-aqui.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="26">
+                        <nombreAudio>Un Poquito Más</nombreAudio>
+                        <duracion>224</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/11-izaro-un-poquito-mas.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="27">
+                        <nombreAudio>Mi Canción para Elisa</nombreAudio>
+                        <duracion>290</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/12-izaro-mi-cancion-para-elisa.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="28">
+                        <nombreAudio>Libre</nombreAudio>
+                        <duracion>223</duracion>
+                        <archivoAudio>izaro-limones-de-oro-2022/13-izaro-libre.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                </canciones>
+            </album>
+
+            <album id="3" idMusico="MA001">
+                <titulo>Folktergeist</titulo>
+                <anioPublicacion>2002</anioPublicacion>
+                <genero>Folk Metal</genero>
+                <descripAlbum>Primer álbum en directo de la banda, grabado durante la gira de Santiago y Volcarás la Leyenda, que recopila sus más grandes éxitos con la energía del público.</descripAlbum>
+                <imagenPortada>mago-de-oz-folktergeist-2002/cover.jpg</imagenPortada>
+                <canciones>
+                    <cancion id="29">
+                        <nombreAudio>Satania</nombreAudio>
+                        <duracion>571</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/01-mago-de-oz-satania.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="30">
+                        <nombreAudio>Jesús De Chamberí</nombreAudio>
+                        <duracion>465</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/10-mago-de-oz-jesus-de-chamberi.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="31">
+                        <nombreAudio>Maritornes</nombreAudio>
+                        <duracion>256</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/02-mago-de-oz-maritornes.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="32">
+                        <nombreAudio>El Pacto</nombreAudio>
+                        <duracion>401</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/11-mago-de-oz-el-pacto.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="33">
+                        <nombreAudio>El Que Quiera Entender Que Entienda</nombreAudio>
+                        <duracion>436</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/03-mago-de-oz-el-que-quiera-entender-que-entienda.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="34">
+                        <nombreAudio>Requiem</nombreAudio>
+                        <duracion>542</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/12-mago-de-oz-requiem.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="35">
+                        <nombreAudio>El Santo Grial</nombreAudio>
+                        <duracion>344</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/04-mago-de-oz-el-santo-grial.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="36">
+                        <nombreAudio>Santa Compaña</nombreAudio>
+                        <duracion>437</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/13-mago-de-oz-santa-compana.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="37">
+                        <nombreAudio>El Lago</nombreAudio>
+                        <duracion>290</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/05-mago-de-oz-el-lago.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="38">
+                        <nombreAudio>Astaroth</nombreAudio>
+                        <duracion>396</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/14-mago-de-oz-astaroth.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="39">
+                        <nombreAudio>Hasta Que El Cuerpo Aguante</nombreAudio>
+                        <duracion>307</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/06-mago-de-oz-hasta-que-el-cuerpo-aguante.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="40">
+                        <nombreAudio>La Danza Del Fuego</nombreAudio>
+                        <duracion>306</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/15-mago-de-oz-la-danza-del-fuego.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="41">
+                        <nombreAudio>El Cantar De La Luna Oscura</nombreAudio>
+                        <duracion>403</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/07-mago-de-oz-el-cantar-de-la-luna-oscura.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="42">
+                        <nombreAudio>Fiesta Pagana</nombreAudio>
+                        <duracion>304</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/16-mago-de-oz-fiesta-pagana.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="43">
+                        <nombreAudio>La Leyenda De La Mancha</nombreAudio>
+                        <duracion>278</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/08-mago-de-oz-la-leyenda-de-la-mancha.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="44">
+                        <nombreAudio>Hasta Que Tu Muerte Nos Separe</nombreAudio>
+                        <duracion>494</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/17-mago-de-oz-hasta-que-tu-muerte-nos-separe.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="45">
+                        <nombreAudio>Pensando En Ti</nombreAudio>
+                        <duracion>280</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/09-mago-de-oz-pensando-en-ti.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="46">
+                        <nombreAudio>Molinos De Viento</nombreAudio>
+                        <duracion>282</duracion>
+                        <archivoAudio>mago-de-oz-folktergeist-2002/18-mago-de-oz-molinos-de-viento.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                </canciones>
+            </album>
+
+            <album id="4" idMusico="MN001">
+                <titulo>Arde El Cielo</titulo>
+                <anioPublicacion>2008</anioPublicacion>
+                <genero>Rock en Español</genero>
+                <descripAlbum>Es el segundo álbum en vivo de la banda, grabado durante su gira Amar es Combatir en el Coliseo de Puerto Rico, el cual incluye además dos temas inéditos de estudio.</descripAlbum>
+                <imagenPortada>mana-arde-el-cielo-2008/cover.jpg</imagenPortada>
+                <canciones>
+                    <cancion id="47">
+                        <nombreAudio>Déjame Entrar (En vivo)</nombreAudio>
+                        <duracion>267</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/01-mana-dejame-entrar-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="48">
+                        <nombreAudio>Manda Una Señal (En vivo)</nombreAudio>
+                        <duracion>327</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/02-mana-manda-una-senal-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="49">
+                        <nombreAudio>Labios Compartidos (En vivo)</nombreAudio>
+                        <duracion>362</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/03-mana-labios-compartidos-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="50">
+                        <nombreAudio>Bendita Tu Luz (En vivo)</nombreAudio>
+                        <duracion>259</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/04-mana-bendita-tu-luz-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="51">
+                        <nombreAudio>Vivir Sin Aire (En vivo)</nombreAudio>
+                        <duracion>330</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/05-mana-vivir-sin-aire-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="52">
+                        <nombreAudio>Dónde jugarán los niños (En vivo)</nombreAudio>
+                        <duracion>361</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/06-mana-donde-jugaran-los-ninos-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="53">
+                        <nombreAudio>Mariposa Traicionera (En vivo)</nombreAudio>
+                        <duracion>271</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/07-mana-mariposa-traicionera-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="54">
+                        <nombreAudio>El Rey (En vivo)</nombreAudio>
+                        <duracion>308</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/08-mana-el-rey-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="55">
+                        <nombreAudio>No Ha Parado de Llover (En Vivo)</nombreAudio>
+                        <duracion>546</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/09-mana-no-ha-parado-de-llover-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="56">
+                        <nombreAudio>En El Muelle de San Blas (En vivo)</nombreAudio>
+                        <duracion>376</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/10-mana-en-el-muelle-de-san-blas-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="57">
+                        <nombreAudio>Clavado en Un Bar (En vivo)</nombreAudio>
+                        <duracion>419</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/11-mana-clavado-en-un-bar-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="58">
+                        <nombreAudio>Rayando el Sol (En vivo)</nombreAudio>
+                        <duracion>383</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/12-mana-rayando-el-sol-en-vivo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="59">
+                        <nombreAudio>Si No Te Hubieras Ido</nombreAudio>
+                        <duracion>270</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/13-mana-si-no-te-hubieras-ido.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="60">
+                        <nombreAudio>Arde El Cielo</nombreAudio>
+                        <duracion>273</duracion>
+                        <archivoAudio>mana-arde-el-cielo-2008/14-mana-arde-el-cielo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                </canciones>
+            </album>
+
+            <album id="5" idMusico="RI001">
+                <titulo>Solo</titulo>
+                <anioPublicacion>2004</anioPublicacion>
+                <genero>Pop Latino / Balada</genero>
+                <descripAlbum>Álbum recopilatorio acústico y testimonial que compila los éxitos más grandes de la carrera del cantautor, presentando versiones íntimas acompañadas de arreglos sutiles.</descripAlbum>
+                <imagenPortada>ricardo-arjona-solo-2004/cover.jpg</imagenPortada>
+                <canciones>
+                    <cancion id="61">
+                        <nombreAudio>Te Conozco</nombreAudio>
+                        <duracion>250</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/01-ricardo-arjona-te-conozco.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="62">
+                        <nombreAudio>Desnuda</nombreAudio>
+                        <duracion>256</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/02-ricardo-arjona-desnuda.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="63">
+                        <nombreAudio>Mujeres</nombreAudio>
+                        <duracion>266</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/03-ricardo-arjona-mujeres.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="64">
+                        <nombreAudio>Lo Poco Que Queda de Mi</nombreAudio>
+                        <duracion>252</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/04-ricardo-arjona-lo-poco-que-queda-de-mi.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="65">
+                        <nombreAudio>Porque Es Tan Cruel el Amor</nombreAudio>
+                        <duracion>280</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/05-ricardo-arjona-porque-es-tan-cruel-el-amor.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="66">
+                        <nombreAudio>Tu Reputación</nombreAudio>
+                        <duracion>287</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/06-ricardo-arjona-tu-reputacion.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="67">
+                        <nombreAudio>Asignatura Pendiente</nombreAudio>
+                        <duracion>233</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/07-ricardo-arjona-asignatura-pendiente.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="68">
+                        <nombreAudio>Olvidarte</nombreAudio>
+                        <duracion>292</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/08-ricardo-arjona-olvidarte.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="69">
+                        <nombreAudio>Soledad</nombreAudio>
+                        <duracion>258</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/09-ricardo-arjona-soledad.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="70">
+                        <nombreAudio>Si el Norte Fuera el Sur</nombreAudio>
+                        <duracion>276</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/10-ricardo-arjona-si-el-norte-fuera-el-sur.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="71">
+                        <nombreAudio>Realmente No Estoy Tan Solo</nombreAudio>
+                        <duracion>250</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/11-ricardo-arjona-realmente-no-estoy-tan-solo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="72">
+                        <nombreAudio>Señora de las Cuatro Décadas</nombreAudio>
+                        <duracion>290</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/12-ricardo-arjona-senora-de-las-cuatro-decadas.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="73">
+                        <nombreAudio>La Mujer Que No Soñé</nombreAudio>
+                        <duracion>218</duracion>
+                        <archivoAudio>ricardo-arjona-solo-2004/13-ricardo-arjona-la-mujer-que-no-sone.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                </canciones>
+            </album>
+
+            <album id="6" idMusico="RO001">
+                <titulo>Cuando el Río Suena...</titulo>
+                <anioPublicacion>2017</anioPublicacion>
+                <genero>Canción de Autor / Pop</genero>
+                <descripAlbum>Tercer álbum de estudio de la artista, un trabajo sumamente íntimo y valiente donde relata historias personales y familiares ligadas a la memoria histórica y los derechos humanos.</descripAlbum>
+                <imagenPortada>rozalen-cuando-el-rio-suena-2017/cover.jpg</imagenPortada>
+                <canciones>
+                    <cancion id="74">
+                        <nombreAudio>La Puerta Violeta</nombreAudio>
+                        <duracion>202</duracion>
+                        <archivoAudio>rozalen-cuando-el-rio-suena-2017/01-rozalen-la-puerta-violeta.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="75">
+                        <nombreAudio>Dragón Rojo</nombreAudio>
+                        <duracion>204</duracion>
+                        <archivoAudio>rozalen-cuando-el-rio-suena-2017/02-rozalen-dragon-rojo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="76">
+                        <nombreAudio>Girasoles</nombreAudio>
+                        <duracion>220</duracion>
+                        <archivoAudio>rozalen-cuando-el-rio-suena-2017/03-rozalen-girasoles.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="77">
+                        <nombreAudio>Justo</nombreAudio>
+                        <duracion>254</duracion>
+                        <archivoAudio>rozalen-cuando-el-rio-suena-2017/04-rozalen-justo.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="78">
+                        <nombreAudio>La Que Baila Para Ti</nombreAudio>
+                        <duracion>179</duracion>
+                        <archivoAudio>rozalen-cuando-el-rio-suena-2017/05-rozalen-la-que-baila-para-ti.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="79">
+                        <nombreAudio>Antes De Verte</nombreAudio>
+                        <duracion>234</duracion>
+                        <archivoAudio>rozalen-cuando-el-rio-suena-2017/06-rozalen-antes-de-verte.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                    <cancion id="80">
+                        <nombreAudio>Tu Nombre</nombreAudio>
+                        <duracion>181</duracion>
+                        <archivoAudio>rozalen-cuando-el-rio-suena-2017/07-rozalen-tu-nombre.mp3</archivoAudio>
+                        <nReproducciones>0</nReproducciones>
+                        <artistasInvitados/>
+                    </cancion>
+                </canciones>
+            </album>
+        </albumes>
+
+        <podcasts/>
+    </biblioteca>
+
+    <clientes/>
+
+</DestructorMp3>
