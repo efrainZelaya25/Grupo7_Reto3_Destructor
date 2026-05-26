@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="destructor_mp3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="idiomas" type="idiomasType" />
+                <xs:element name="artistas" type="artistasType" />
+                <xs:element name="clientes" type="clientesType" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="idiomasType">
+        <xs:sequence>
+            <xs:element name="idioma" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="descripcion" type="xs:string" />
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:string" use="required" />
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="artistasType">
+        <xs:sequence>
+            <xs:element name="artista" maxOccurs="unbounded" type="artistaType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="artistaType">
+        <xs:sequence>
+            <xs:element name="nombre_artistico" type="xs:string" />
+            <xs:element name="genero_principal" type="xs:string" />
+            <xs:element name="imagen" type="xs:string" />
+            <xs:element name="descripcion" type="xs:string" />
+            <xs:element name="detalles_musico" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="tipo_musico" type="xs:string" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="detalles_podcaster" minOccurs="0">
+                <xs:complexType />
+            </xs:element>
+            <xs:element name="albumes" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="album" maxOccurs="unbounded" type="albumType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="podcasts" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="podcast" maxOccurs="unbounded" type="podcastEpisodioType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" use="required" />
+        <xs:attribute name="tipo" type="xs:string" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="albumType">
+        <xs:sequence>
+            <xs:element name="titulo" type="xs:string" />
+            <xs:element name="anio_publicacion" type="xs:integer" />
+            <xs:element name="genero" type="xs:string" />
+            <xs:element name="descripcion_album" type="xs:string" />
+            <xs:element name="imagen_portada" type="xs:string" />
+            <xs:element name="canciones">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="cancion" maxOccurs="unbounded" type="cancionType" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="cancionType">
+        <xs:sequence>
+            <xs:element name="nombre_audio" type="xs:string" />
+            <xs:element name="duracion_segundos" type="xs:integer" />
+            <xs:element name="archivo_audio" type="xs:string" />
+            <xs:element name="n_reproducciones" type="xs:integer" />
+            <xs:element name="artistas_invitados" type="xs:string" nillable="true" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="podcastEpisodioType">
+        <xs:sequence>
+            <xs:element name="nombre_audio" type="xs:string" />
+            <xs:element name="duracion_segundos" type="xs:integer" />
+            <xs:element name="archivo_audio" type="xs:string" />
+            <xs:element name="n_reproducciones" type="xs:integer" />
+            <xs:element name="colaboradores" type="xs:string" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="clientesType">
+        <xs:sequence>
+            <xs:element name="cliente" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nombre_cliente" type="xs:string" />
+                        <xs:element name="apellido" type="xs:string" />
+                        <xs:element name="usuario" type="xs:string" />
+                        <xs:element name="contrasena" type="xs:string" />
+                        <xs:element name="fecha_nacimiento" type="xs:date" />
+                        <xs:element name="fecha_registro" type="xs:string" />
+                        <xs:element name="detalles_premium" minOccurs="0">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="fecha_renovacion" type="xs:date" />
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="playlists" type="xs:string" minOccurs="0" />
+                        <xs:element name="favoritos" type="xs:string" minOccurs="0" />
+                        <xs:element name="historial_reproducciones" type="xs:string" minOccurs="0" />
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:string" use="required" />
+                    <xs:attribute name="tipo" type="xs:string" use="required" />
+                    <xs:attribute name="idioma_ref" type="xs:string" use="required" />
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
